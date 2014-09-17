@@ -1,0 +1,5 @@
+/Users/jianqiaoyang/Desktop/BFPaperTabBarController/Xamarin-BFPaperTabBarController/Xamarin-BFPaperTabBarController/obj/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
+/Users/jianqiaoyang/Desktop/BFPaperTabBarController/Xamarin-BFPaperTabBarController/Xamarin-BFPaperTabBarController/bin/Debug/Xamarin-BFPaperTabBarController.dll.mdb
+/Users/jianqiaoyang/Desktop/BFPaperTabBarController/Xamarin-BFPaperTabBarController/Xamarin-BFPaperTabBarController/bin/Debug/Xamarin-BFPaperTabBarController.dll
+/Users/jianqiaoyang/Desktop/BFPaperTabBarController/Xamarin-BFPaperTabBarController/Xamarin-BFPaperTabBarController/obj/Debug/Xamarin-BFPaperTabBarController.dll
+/Users/jianqiaoyang/Desktop/BFPaperTabBarController/Xamarin-BFPaperTabBarController/Xamarin-BFPaperTabBarController/obj/Debug/Xamarin-BFPaperTabBarController.dll.mdb

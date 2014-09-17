@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C0AD2E5E19C969F500AF3572 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C0AD2E5F19C969F500AF3572 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+				C0AD2E6219C96A0600AF3572 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C0AD2E2219C9695400AF3572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AD2E2119C9695400AF3572 /* Foundation.framework */; };
+		C0AD2E2719C9695400AF3572 /* BFPaperTabBarControllerLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0AD2E2619C9695400AF3572 /* BFPaperTabBarControllerLib.h */; };
+		C0AD2E2919C9695400AF3572 /* BFPaperTabBarControllerLib.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AD2E2819C9695400AF3572 /* BFPaperTabBarControllerLib.m */; };
+		C0AD2E3019C9695400AF3572 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AD2E2F19C9695400AF3572 /* XCTest.framework */; };
+		C0AD2E3119C9695400AF3572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AD2E2119C9695400AF3572 /* Foundation.framework */; };
+		C0AD2E3319C9695400AF3572 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AD2E3219C9695400AF3572 /* UIKit.framework */; };
+		C0AD2E3619C9695400AF3572 /* libBFPaperTabBarControllerLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AD2E1E19C9695400AF3572 /* libBFPaperTabBarControllerLib.a */; };
+		C0AD2E3C19C9695400AF3572 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0AD2E3A19C9695400AF3572 /* InfoPlist.strings */; };
+		C0AD2E3E19C9695400AF3572 /* BFPaperTabBarControllerLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AD2E3D19C9695400AF3572 /* BFPaperTabBarControllerLibTests.m */; };
+		C0AD2E5D19C969A700AF3572 /* BFPaperTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AD2E5C19C969A700AF3572 /* BFPaperTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0AD2E3419C9695400AF3572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0AD2E1619C9695400AF3572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0AD2E1D19C9695400AF3572;
+			remoteInfo = BFPaperTabBarControllerLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0AD2E1C19C9695400AF3572 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C0AD2E2719C9695400AF3572 /* BFPaperTabBarControllerLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C0AD2E1E19C9695400AF3572 /* libBFPaperTabBarControllerLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBFPaperTabBarControllerLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AD2E2119C9695400AF3572 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0AD2E2519C9695400AF3572 /* BFPaperTabBarControllerLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFPaperTabBarControllerLib-Prefix.pch"; sourceTree = "<group>"; };
+		C0AD2E2619C9695400AF3572 /* BFPaperTabBarControllerLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFPaperTabBarControllerLib.h; sourceTree = "<group>"; };
+		C0AD2E2819C9695400AF3572 /* BFPaperTabBarControllerLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFPaperTabBarControllerLib.m; sourceTree = "<group>"; };
+		C0AD2E2E19C9695400AF3572 /* BFPaperTabBarControllerLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFPaperTabBarControllerLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AD2E2F19C9695400AF3572 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C0AD2E3219C9695400AF3572 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C0AD2E3919C9695400AF3572 /* BFPaperTabBarControllerLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFPaperTabBarControllerLibTests-Info.plist"; sourceTree = "<group>"; };
+		C0AD2E3B19C9695400AF3572 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0AD2E3D19C9695400AF3572 /* BFPaperTabBarControllerLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFPaperTabBarControllerLibTests.m; sourceTree = "<group>"; };
+		C0AD2E5B19C969A700AF3572 /* BFPaperTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperTabBarController.h; sourceTree = "<group>"; };
+		C0AD2E5C19C969A700AF3572 /* BFPaperTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPaperTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0AD2E1B19C9695400AF3572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AD2E2219C9695400AF3572 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AD2E2B19C9695400AF3572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AD2E3619C9695400AF3572 /* libBFPaperTabBarControllerLib.a in Frameworks */,
+				C0AD2E3019C9695400AF3572 /* XCTest.framework in Frameworks */,
+				C0AD2E3319C9695400AF3572 /* UIKit.framework in Frameworks */,
+				C0AD2E3119C9695400AF3572 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0AD2E1519C9695400AF3572 = {
+			isa = PBXGroup;
+			children = (
+				C0AD2E5A19C969A700AF3572 /* Classes */,
+				C0AD2E2319C9695400AF3572 /* BFPaperTabBarControllerLib */,
+				C0AD2E3719C9695400AF3572 /* BFPaperTabBarControllerLibTests */,
+				C0AD2E2019C9695400AF3572 /* Frameworks */,
+				C0AD2E1F19C9695400AF3572 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0AD2E1F19C9695400AF3572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD2E1E19C9695400AF3572 /* libBFPaperTabBarControllerLib.a */,
+				C0AD2E2E19C9695400AF3572 /* BFPaperTabBarControllerLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0AD2E2019C9695400AF3572 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD2E2119C9695400AF3572 /* Foundation.framework */,
+				C0AD2E2F19C9695400AF3572 /* XCTest.framework */,
+				C0AD2E3219C9695400AF3572 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0AD2E2319C9695400AF3572 /* BFPaperTabBarControllerLib */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD2E2619C9695400AF3572 /* BFPaperTabBarControllerLib.h */,
+				C0AD2E2819C9695400AF3572 /* BFPaperTabBarControllerLib.m */,
+				C0AD2E2419C9695400AF3572 /* Supporting Files */,
+			);
+			path = BFPaperTabBarControllerLib;
+			sourceTree = "<group>";
+		};
+		C0AD2E2419C9695400AF3572 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD2E2519C9695400AF3572 /* BFPaperTabBarControllerLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0AD2E3719C9695400AF3572 /* BFPaperTabBarControllerLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD2E3D19C9695400AF3572 /* BFPaperTabBarControllerLibTests.m */,
+				C0AD2E3819C9695400AF3572 /* Supporting Files */,
+			);
+			path = BFPaperTabBarControllerLibTests;
+			sourceTree = "<group>";
+		};
+		C0AD2E3819C9695400AF3572 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD2E3919C9695400AF3572 /* BFPaperTabBarControllerLibTests-Info.plist */,
+				C0AD2E3A19C9695400AF3572 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0AD2E5A19C969A700AF3572 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD2E5B19C969A700AF3572 /* BFPaperTabBarController.h */,
+				C0AD2E5C19C969A700AF3572 /* BFPaperTabBarController.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0AD2E1D19C9695400AF3572 /* BFPaperTabBarControllerLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0AD2E4119C9695400AF3572 /* Build configuration list for PBXNativeTarget "BFPaperTabBarControllerLib" */;
+			buildPhases = (
+				C0AD2E1A19C9695400AF3572 /* Sources */,
+				C0AD2E1B19C9695400AF3572 /* Frameworks */,
+				C0AD2E1C19C9695400AF3572 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BFPaperTabBarControllerLib;
+			productName = BFPaperTabBarControllerLib;
+			productReference = C0AD2E1E19C9695400AF3572 /* libBFPaperTabBarControllerLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C0AD2E2D19C9695400AF3572 /* BFPaperTabBarControllerLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0AD2E4419C9695400AF3572 /* Build configuration list for PBXNativeTarget "BFPaperTabBarControllerLibTests" */;
+			buildPhases = (
+				C0AD2E2A19C9695400AF3572 /* Sources */,
+				C0AD2E2B19C9695400AF3572 /* Frameworks */,
+				C0AD2E2C19C9695400AF3572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0AD2E3519C9695400AF3572 /* PBXTargetDependency */,
+			);
+			name = BFPaperTabBarControllerLibTests;
+			productName = BFPaperTabBarControllerLibTests;
+			productReference = C0AD2E2E19C9695400AF3572 /* BFPaperTabBarControllerLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0AD2E1619C9695400AF3572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Cam;
+			};
+			buildConfigurationList = C0AD2E1919C9695400AF3572 /* Build configuration list for PBXProject "BFPaperTabBarControllerLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0AD2E1519C9695400AF3572;
+			productRefGroup = C0AD2E1F19C9695400AF3572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0AD2E1D19C9695400AF3572 /* BFPaperTabBarControllerLib */,
+				C0AD2E2D19C9695400AF3572 /* BFPaperTabBarControllerLibTests */,
+				C0AD2E5E19C969F500AF3572 /* All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0AD2E2C19C9695400AF3572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AD2E3C19C9695400AF3572 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0AD2E6219C96A0600AF3572 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target ${PROJECT_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\"\nBUILD_ROOT=\"${BUILD_ROOT}\" xcodebuild -target ${PROJECT_NAME} -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0AD2E1A19C9695400AF3572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AD2E5D19C969A700AF3572 /* BFPaperTabBarController.m in Sources */,
+				C0AD2E2919C9695400AF3572 /* BFPaperTabBarControllerLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AD2E2A19C9695400AF3572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AD2E3E19C9695400AF3572 /* BFPaperTabBarControllerLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0AD2E3519C9695400AF3572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0AD2E1D19C9695400AF3572 /* BFPaperTabBarControllerLib */;
+			targetProxy = C0AD2E3419C9695400AF3572 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0AD2E3A19C9695400AF3572 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0AD2E3B19C9695400AF3572 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0AD2E3F19C9695400AF3572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0AD2E4019C9695400AF3572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0AD2E4219C9695400AF3572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BFPaperTabBarControllerLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFPaperTabBarControllerLib/BFPaperTabBarControllerLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C0AD2E4319C9695400AF3572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BFPaperTabBarControllerLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFPaperTabBarControllerLib/BFPaperTabBarControllerLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C0AD2E4519C9695400AF3572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFPaperTabBarControllerLib/BFPaperTabBarControllerLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BFPaperTabBarControllerLibTests/BFPaperTabBarControllerLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C0AD2E4619C9695400AF3572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFPaperTabBarControllerLib/BFPaperTabBarControllerLib-Prefix.pch";
+				INFOPLIST_FILE = "BFPaperTabBarControllerLibTests/BFPaperTabBarControllerLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		C0AD2E6019C969F500AF3572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0AD2E6119C969F500AF3572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0AD2E1919C9695400AF3572 /* Build configuration list for PBXProject "BFPaperTabBarControllerLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AD2E3F19C9695400AF3572 /* Debug */,
+				C0AD2E4019C9695400AF3572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0AD2E4119C9695400AF3572 /* Build configuration list for PBXNativeTarget "BFPaperTabBarControllerLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AD2E4219C9695400AF3572 /* Debug */,
+				C0AD2E4319C9695400AF3572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0AD2E4419C9695400AF3572 /* Build configuration list for PBXNativeTarget "BFPaperTabBarControllerLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AD2E4519C9695400AF3572 /* Debug */,
+				C0AD2E4619C9695400AF3572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0AD2E5F19C969F500AF3572 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AD2E6019C969F500AF3572 /* Debug */,
+				C0AD2E6119C969F500AF3572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0AD2E1619C9695400AF3572 /* Project object */;
+}
