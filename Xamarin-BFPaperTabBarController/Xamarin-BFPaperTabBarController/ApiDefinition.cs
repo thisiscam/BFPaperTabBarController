@@ -8,7 +8,7 @@ using MonoTouch.UIKit;
 namespace BFPaperTabBarControllerBinding {
 
 	[BaseType (typeof (UITabBarController))]
-	public partial interface BFPaperTabBarController {
+	public interface BFPaperTabBarController {
 
 		[Export ("usesSmartColor")]
 		bool UsesSmartColor { get; set; }
@@ -39,6 +39,9 @@ namespace BFPaperTabBarControllerBinding {
 
 		[Export ("selectTabAtIndex:animated:")]
 		void SelectTabAtIndex (int index, bool animated);
+
+		[Export ("setupBFPaperTabBarController")]
+		void SetupBFPaperTabBarController ();
 	}
 }
 

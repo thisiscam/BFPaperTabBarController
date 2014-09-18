@@ -67,15 +67,6 @@ static CGFloat const bfPaperTabBarController_backgroundFadeConstant          = 0
 
 
 #pragma mark - Default Initializers
-- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-        [self setupBFPaperTabBarController];
-    }
-    return self;
-}
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
@@ -92,7 +83,7 @@ static CGFloat const bfPaperTabBarController_backgroundFadeConstant          = 0
     self = [super init];
     if (self) {
         // Initialization code
-        [self setupBFPaperTabBarController];
+        //[self setupBFPaperTabBarController]; Call this by your self
     }
     return self;
 }

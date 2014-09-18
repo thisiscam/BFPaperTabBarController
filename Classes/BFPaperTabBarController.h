@@ -76,5 +76,6 @@ static CGFloat const bfPaperTabBarController_tapCircleDiameterDefault = -1.f;
  *  @param animated (BOOL) A flag to determine if we should animate the change or not.
  */
 - (void)selectTabAtIndex:(NSInteger)index animated:(BOOL)animated;
+- (void)setupBFPaperTabBarController;
 
 @end

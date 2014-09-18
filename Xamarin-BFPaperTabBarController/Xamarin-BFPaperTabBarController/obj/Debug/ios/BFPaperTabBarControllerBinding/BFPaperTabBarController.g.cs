@@ -66,6 +66,9 @@ namespace BFPaperTabBarControllerBinding {
 		const string selSetUnderlineThickness_ = "setUnderlineThickness:";
 		static readonly IntPtr selSetUnderlineThickness_Handle = Selector.GetHandle ("setUnderlineThickness:");
 		[CompilerGenerated]
+		const string selSetupBFPaperTabBarController = "setupBFPaperTabBarController";
+		static readonly IntPtr selSetupBFPaperTabBarControllerHandle = Selector.GetHandle ("setupBFPaperTabBarController");
+		[CompilerGenerated]
 		const string selSetUsesSmartColor_ = "setUsesSmartColor:";
 		static readonly IntPtr selSetUsesSmartColor_Handle = Selector.GetHandle ("setUsesSmartColor:");
 		[CompilerGenerated]
@@ -144,6 +147,17 @@ namespace BFPaperTabBarControllerBinding {
 				ApiDefinition.Messaging.void_objc_msgSend_int_bool (this.Handle, selSelectTabAtIndexAnimated_Handle, index, animated);
 			} else {
 				ApiDefinition.Messaging.void_objc_msgSendSuper_int_bool (this.SuperHandle, selSelectTabAtIndexAnimated_Handle, index, animated);
+			}
+		}
+		
+		[Export ("setupBFPaperTabBarController")]
+		[CompilerGenerated]
+		public virtual void SetupBFPaperTabBarController ()
+		{
+			if (IsDirectBinding) {
+				ApiDefinition.Messaging.void_objc_msgSend (this.Handle, selSetupBFPaperTabBarControllerHandle);
+			} else {
+				ApiDefinition.Messaging.void_objc_msgSendSuper (this.SuperHandle, selSetupBFPaperTabBarControllerHandle);
 			}
 		}
 		
