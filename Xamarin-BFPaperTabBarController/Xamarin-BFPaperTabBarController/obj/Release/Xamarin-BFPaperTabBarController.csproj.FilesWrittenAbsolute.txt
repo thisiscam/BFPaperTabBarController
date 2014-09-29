@@ -1,0 +1,5 @@
+/Users/jianqiaoyang/Desktop/Sellegit/Sellegit_Mobile/Lib/BFPaperTabController/Xamarin-BFPaperTabBarController/Xamarin-BFPaperTabBarController/obj/Release/MonoTouch,Version=v1.0.AssemblyAttribute.cs
+/Users/jianqiaoyang/Desktop/Sellegit/Sellegit_Mobile/Lib/BFPaperTabController/Xamarin-BFPaperTabBarController/Xamarin-BFPaperTabBarController/bin/Release/Xamarin-BFPaperTabBarController.dll.mdb
+/Users/jianqiaoyang/Desktop/Sellegit/Sellegit_Mobile/Lib/BFPaperTabController/Xamarin-BFPaperTabBarController/Xamarin-BFPaperTabBarController/bin/Release/Xamarin-BFPaperTabBarController.dll
+/Users/jianqiaoyang/Desktop/Sellegit/Sellegit_Mobile/Lib/BFPaperTabController/Xamarin-BFPaperTabBarController/Xamarin-BFPaperTabBarController/obj/Release/Xamarin-BFPaperTabBarController.dll
+/Users/jianqiaoyang/Desktop/Sellegit/Sellegit_Mobile/Lib/BFPaperTabController/Xamarin-BFPaperTabBarController/Xamarin-BFPaperTabBarController/obj/Release/Xamarin-BFPaperTabBarController.dll.mdb
